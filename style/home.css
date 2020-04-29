@@ -1,10 +1,6 @@
-body{
-    margin-top: -10px;
-    margin-left: 0px;
-    margin-right: -1px;
-    margin-bottom: -100px;
-    font-family: sans-serif;
-}
+@import "style1.css";
+@import "style2.css";
+@import "style3.css";
 
 .container {
     margin-top: -10px;
@@ -12,11 +8,10 @@ body{
     display: grid;
     width: 100%;
     grid-template-columns: 1px 300px;
-    grid-template-rows: 100px 1200px 100px;
+    grid-template-rows: 100px 1200px;
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd"
-    "sd sd main main main main main main"
-    "ft ft ft ft ft ft ft ft";
+    "sd sd main main main main main main";
     margin-left: 0px;
     margin-right: 0px;
     width: 100%;
@@ -86,23 +81,6 @@ body{
     background: #52D5B2;
 }
 
-.BUTTON_YXV {
-
-    border-radius: 20px;
-    color: #000000;
-    font-family: sans-serif;
-    font-size: 15px;
-    padding: 5px;
-    background-color: #E0EBE8;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-}
-
-.BUTTON_YXV:hover{
-    color: green;
-}
 
 .mainBodyItems{
     margin-bottom: 10px;
@@ -145,16 +123,6 @@ body{
 
 #navBarButtonArea{
     grid-area: bt;
-}
-
-#footer{
-    display: flex;
-    justify-content: center;
-    grid-area: ft;
-    margin-bottom: -20px;
-    background-color: #c5ded7;
-    padding-bottom: 30px;
-    padding-top: 20px;
 }
 
 #header {

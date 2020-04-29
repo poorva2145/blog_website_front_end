@@ -1,0 +1,18 @@
+.BUTTON_YXV {
+
+    border-radius: 20px;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #E0EBE8;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+}
+
+.BUTTON_YXV:hover{
+    color: green;
+}
