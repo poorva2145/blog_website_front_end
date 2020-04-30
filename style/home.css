@@ -148,7 +148,7 @@
 }
 
 
-#mainBody{
+/* #mainBody{
     padding-top: 100px;
     display: grid;
     width: 100%;
@@ -160,7 +160,45 @@
     "three three three three four four four four"
     "five five five five six six six six";
     justify-content: space-evenly;
+} */
+
+@media (min-width: 600px) {
+    #mainBody{
+        padding-top: 10%;
+        display: grid;
+        width: 100%;
+        grid-gap: 10%;
+        column-gap: 5%;
+        grid-template-columns: 10%;
+        grid-template-rows: repeat(6,20%);
+        grid-template-areas: 
+        "one one one one"
+        "two two two two"
+        "three three three three"
+        "four four four four"
+        "five five five five"
+        "six six six six";
+        justify-content: space-evenly;
+    }
 }
+@media (min-width: 900px) {
+    #mainBody{
+        padding-top: 10%;
+        display: grid;
+        width: 100%;
+        grid-gap: 10%;
+        column-gap: 5%;
+        grid-template-columns: repeat(2,10%);
+        grid-template-rows: repeat(3,20%);
+        grid-template-areas: 
+        "one one one one two two two two"
+        "three three three three four four four four"
+        "five five five five six six six six";
+        justify-content: space-evenly;
+    }
+}
+
+
 
 #content1{
     grid-area: one;

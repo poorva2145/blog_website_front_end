@@ -1,9 +1,22 @@
-body{
-    margin-top: -10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: -1px;
-    font-family: sans-serif;
-    width: 100%;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.container{
+    min-height: 100%;
+    overflow: auto;
+    padding-bottom: 500px;
+}
+
+
 

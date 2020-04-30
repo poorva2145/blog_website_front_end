@@ -1,0 +1,153 @@
+@import "style1.css";
+@import "style2.css";
+@import "style3.css";
+
+img{
+    width: 40%;
+}
+
+.Author{
+    margin-top: 2%;
+}
+
+.forImage{
+    background-image: url("../images/image5.png");
+    width: 75%;
+    height: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+}
+
+.container {
+   
+    display: grid;
+    /* width: 100%; */
+    grid-template-rows: 100px 300px 3500px;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "t t t t t t t t"
+    "main main main main main main main main";
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.ds{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.navBar{
+    background-color: #e0ebe8;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 30px 300px;
+    grid-template-rows: 100px;
+    grid-template-areas: 
+    "tx tx tx bt bt bt bt bt";
+}
+
+.navBarText{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.navBarButtons{
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navBarItems{
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding-top: 5%;
+}
+
+.socialMediaIcon {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    padding-top: 20px;
+}
+
+.containerCard {
+    padding: 2px 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    font-size: 20px;
+    line-height: 200%;
+    margin-top: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+
+.social{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.media{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#navBarTextArea{
+    grid-area: tx;
+}
+
+#navBarButtonArea{
+    grid-area: bt;
+}
+
+#header{
+    grid-area: hd;
+}
+
+#title{
+    grid-area: t;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainBody{
+    grid-area: main;
+}
+
